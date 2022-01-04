@@ -15,6 +15,7 @@ export default class ActivityComponent extends LightningElement {
             this.oppData();
         } else if (error) {
             console.error('ERROR in Wire => ', JSON.stringify(error)); // handle error properly
+            console.log('Help');
         }
     }
 
